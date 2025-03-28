@@ -20,7 +20,7 @@ Technologies Used
  2. Font Awesome Icons
  3. Google Fonts
 
--Backend:
+- Backend:
  1. Node Js
  2. Google News Api from Rapid Api(https://rapidapi.com/bonaipowered/api/google-news22)
 
@@ -28,7 +28,7 @@ Technologies Used
  1. Git for version control
  2. VS Code IDE
 
-Demo Video:
+Demo Video
  -
 
 
