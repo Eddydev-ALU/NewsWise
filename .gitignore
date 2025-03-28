@@ -1,0 +1,5 @@
+#ignoring api key 
+backend/.env
+
+#ignoring node modules
+backend/node_modules
