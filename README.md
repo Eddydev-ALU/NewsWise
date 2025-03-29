@@ -1,35 +1,41 @@
-                         NEWSWISE
-Overview
+# NewsWise
 
-- NewsWise is a sleek, modern news web application that delivers the latest headlines from around the world. Designed with user exeperience in mind, it offers a clean interface to browse news by category, country, and language preferences.
+## Overview
 
-Features
+NewsWise is a sleek, modern news web application that delivers the latest headlines from around the world. Designed with user experience in mind, it offers a clean interface to browse news by category, country, and language preferences.
 
-- Global News Coverage:
- 1. Access top headlines from multiple countries
- 2. Filter news based on country and language preference
+## Features
 
-- Organized Content
- 1. News categorizes (Business, Sports, Technology, etc)
- 2. Topic based filtering and search functionality
+### Global News Coverage
+- Access top headlines from multiple countries.
+- Filter news based on country and language preference.
 
-Technologies Used
+### Organized Content
+- News categories (Business, Sports, Technology, etc.).
+- Topic-based filtering and search functionality.
 
-- Frontend:
- 1. HTML,CSS
- 2. Font Awesome Icons
- 3. Google Fonts
+## Technologies Used
 
-- Backend:
- 1. Node Js
- 2. Google News Api from Rapid Api(https://rapidapi.com/bonaipowered/api/google-news22)
+### Frontend:
+- HTML, CSS
+- Font Awesome Icons
+- Google Fonts
 
-- Development Tools:
- 1. Git for version control
- 2. VS Code IDE
+### Backend:
+- Node.js
+- Google News API from RapidAPI ([Google News API](https://rapidapi.com/bonaipowered/api/google-news22))
 
-Demo Video
- -
+### Development Tools:
+- Git for version control
+- VS Code IDE
 
+## Future Features to Implement
+- User authentication for personalized news feeds.
+- Dark mode for improved user experience.
+- Bookmarking system to save articles for later.
+- Push notifications for breaking news.
 
-    
+## Demo Video
+
+- [Insert Link Here]
+
