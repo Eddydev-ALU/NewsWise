@@ -102,7 +102,6 @@ document.addEventListener('DOMContentLoaded', function() {
             
             if (currentType === 'search') params.append('q', encodeURIComponent(query));
             if (currentType === 'topic-headlines' && currentTopic) params.append('topic', currentTopic);
-            if (currentType === 'geolocation') params.append('location', 'london');
             
             //console.log('Fetching:', `${endpoint}?${params.toString()}`);            
             const response = await fetch(`${endpoint}?${params.toString()}`);
@@ -128,12 +127,11 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     function getEndpoint() {
-        const baseUrl = 'http://localhost:4000'; // Add your backend URL here
+        const baseUrl = 'http://localhost:4000'; 
         switch (currentType) {
             case 'search': return `${baseUrl}/api/search`;
             case 'top-headlines': return `${baseUrl}/api/top-headlines`;
             case 'topic-headlines': return `${baseUrl}/api/topic-headlines`;
-            case 'geolocation': return `${baseUrl}/api/geolocation`;
             default: return `${baseUrl}/api/top-headlines`;
         }
     }

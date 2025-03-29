@@ -7,9 +7,9 @@ const path = require('path');
 const app = express();
 const PORT = 4000;
 
-// Enhanced CORS configuration
+//CORS configuration
 app.use(cors({
-  origin: ['http://127.0.0.1:5500', 'http://localhost:5500'], // Add all allowed origins
+  origin: ['http://127.0.0.1:5500', 'http://localhost:5500'], 
   credentials: true,
   methods: ['GET', 'POST', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
