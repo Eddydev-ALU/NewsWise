@@ -30,12 +30,18 @@ NewsWise is a sleek, modern news web application that delivers the latest headli
 - VS Code IDE
 
 ## Future Features to Implement
+
 - User authentication for personalized news feeds.
 - Dark mode for improved user experience.
 - Bookmarking system to save articles for later.
 - Push notifications for breaking news.
+- Account creation for a customized experience.
+- Daily story suggestions based on user interests.
+- Personalized news recommendations based on reading history.
 
 ## Demo Video
 
-- [Insert Link Here]
+- [Link]
+
+
 
